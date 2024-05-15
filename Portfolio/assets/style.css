@@ -1,0 +1,197 @@
+/* estilo do header */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+    background-color: #5c20c6;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding-right: 20px;
+    background-color: #5c20c6;
+}
+
+
+/* estilo do inicio */
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d4d3d3;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.titulo{
+    font-size: 15px;
+}
+
+.text-btn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.conhecer-btn {
+    margin-top: 10px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
+.imagem {
+    width: 400px;
+}
+
+
+
+/* estilo do sobre */
+#sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d4d3d3;
+    padding-top: 120px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    width: 400px; 
+    margin-right: 20px; 
+    border-radius: 50%;
+   
+}
+
+.title{
+    font-size: 42px;
+}
+
+.text-btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.github-btn {
+    margin-top: 20px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+
+/* contato style */
+.contato-container{
+    padding: 120px;
+    display: flex;
+    background-color: #d4d3d3;
+    justify-content: center;
+    text-align: center;
+}
+
+.contato-content{
+    background-color: #d4d3d3;
+    margin-right: 150px;
+}
+
+.icones-redes-sociais a{
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+
+.formulario{
+    background-color: #d4d3d3;
+}
+
+#contato form label {
+    display: block;
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+#contato form input[type="email"],
+#contato form input[type="text"],
+#contato form textarea {
+    width: 450px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #100A31; 
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #ffffff; 
+    color: #000000;
+    justify-content: center;
+
+
+}
+
+#contato form textarea {
+    height: 50px;
+}
+
+#contato form button {
+    background: #100A31; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    align-items: center;
+}
+
+#contato form button {
+    background: #340C6F;  
+}
+
+#contato form button:hover {
+    background: #56555a;  
+}
+/*Footer*/
+
+footer {
+    text-align: center; 
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px;
+}
+
+footer p {
+    background-color: #333333c0;
+    margin: 0;
+}
+
