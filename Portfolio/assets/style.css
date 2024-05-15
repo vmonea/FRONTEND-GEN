@@ -58,6 +58,7 @@
     height: 50px;
     width: 150px;
     border: none;
+    text-decoration: none;
 }
 
 .imagem {
@@ -109,7 +110,19 @@
     height: 50px;
     width: 100px;
     border: none;
+    text-decoration: none;
 }
+
+.github2{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    align-items: center;   
+}
+
+
 
 /* contato style */
 .contato-container{
